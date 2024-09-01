@@ -1,0 +1,27 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif; /* Définit la police de caractères pour le corps du document */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Couleur de fond de la page */
+}
+
+h1 {
+    background-color: #007BFF; /* Couleur de fond pour les titres h1 */
+    color: white; /* Couleur du texte pour les titres h1 */
+    padding: 10px; /* Espace intérieur autour du texte dans h1 */
+}
+
+div#tasks {
+    margin: 20px; /* Marge autour des div qui contiennent les tâches */
+    padding: 10px; /* Espace intérieur autour des div de tâches */
+    background-color: white; /* Fond blanc pour les div de tâches */
+    border-radius: 5px; /* Coins arrondis pour les div de tâches */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ombre sous les div de tâches */
+}
+
+div.task {
+    border-bottom: 1px solid #ccc; /* Ligne de séparation entre les tâches */
+    padding: 10px; /* Espace intérieur autour du texte dans chaque tâche */
+    margin-bottom: 5px; /* Espace en bas de chaque tâche */
+}
